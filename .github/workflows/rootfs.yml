@@ -105,7 +105,7 @@ on:
         description: 'Kernel Branch (required when kernel_source=custom_build)'
         type: string
         required: false
-        default: 'sheng-7.3.0'
+        default: 'sheng-7.2.6'
 
       kernel_config:
         description: 'Kernel Config (required when kernel_source=custom_build)'
@@ -989,7 +989,6 @@ jobs:
             lm-sensors \
             wireless-regdb \
             net-tools \
-            qbootctl \
             libglib2.0-0 \
             libprotobuf-c1 \
             libqmi-glib5 \
